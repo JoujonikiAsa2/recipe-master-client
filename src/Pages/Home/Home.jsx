@@ -1,5 +1,6 @@
-import Banner from "./Banner";
-import Categories from "./Categories";
+
+import Banner from "./Components/Banner";
+import Categories from "./Components/Categories";
 
 const Home = () => {
     return (

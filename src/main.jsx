@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import Routes from './Routes/Routes.jsx'
-import './Routes/route.css'
+import './Layout/root.css'
 
 import { RouterProvider } from 'react-router-dom'
 // import bg from '../src/assets/Photos/bg.jpg'
