@@ -5,9 +5,11 @@ import Category from "./Category";
 const Categories = () => {
 
     const [categories, setCategories] = useState([])
-
     axios.get('http://localhost:5000/categories')
-    .then(data=>setCategories(data.data))
+        .then(data => setCategories(data.data))
+        .catch(error => {
+            console.log(error.code)
+        })
 
     // useEffect(() => {
     //     fetch("categories.json")
